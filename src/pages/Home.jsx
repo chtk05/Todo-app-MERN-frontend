@@ -1,11 +1,13 @@
+import TodoAdd from '../component/TodoAdd'
+import TodoAll from '../component/TodoAll'
 import TodoView from '../component/TodoView'
 
 const Home = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">To Do List</h1>
+    <div className="flex justify-between mx-auto w-5/6 py-10">
       <TodoView />
-    </>
+      <TodoAll />
+    </div>
   )
 }
 
