@@ -26,7 +26,7 @@ const TodoView = () => {
           </svg>
         </span>
       </div>
-      <img src="/public/studywithcoffee-preview.png" alt="studypic" className="w-100" />
+      <img src="studywithcoffee-preview.png" alt="studypic" className="w-100" />
     </div>
   )
 }
